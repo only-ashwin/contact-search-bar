@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 375px;
+    height: 520px;
+    box-shadow: 4px 4px 30px rgba(0,0,0,0.6);
+    border-radius: 15px;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+.container form{
+    width: 100%;
+    border: 1px solid rgb(82, 74, 235);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 10px;
+}
+
+.container form i{
+    padding: 10px;
+    background: #dfdfdf;
+}
+
+.contact-list{
+    padding: 20px 0;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+
+.contact img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    background: #dfdfdf;
+    border-radius: 100px;
+}
+
+.contact .contact-details{
+    padding-left: 15px;
+}
+
+.contact .contact-details h2{
+    font-size: 20px;
+    color: #1d1d1d;
+}
+
+.contact .contact-details h3{
+    font-size: 13px;
+}
